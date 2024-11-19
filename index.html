@@ -65,6 +65,11 @@
                 currentPlayer = 'X';
                 document.getElementById('message').textContent = '';
             });
+
+            // Play background music
+            const audio = new Audio('https://www.bensound.com/bensound-music/bensound-summer.mp3');
+            audio.loop = true;
+            audio.play();
         });
     </script>
 </head>
